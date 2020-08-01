@@ -146,6 +146,10 @@ td, th{
   width: 50%;
 }
 
+.imagem-esquerda:hover, .imagem-direita:hover{
+  background-color: white;
+}
+
 /* BOTOES */
 
 .btn-primary{
