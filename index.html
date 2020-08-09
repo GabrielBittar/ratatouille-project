@@ -2,7 +2,7 @@
 
 <head>
 	<link rel="shortcut icon" href="images/favicon.ico" />
-	<title>Ratatouille</title>
+	<title>Ratatouille Café</title>
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900|Ubuntu" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
@@ -56,76 +56,53 @@
 	</div>
 
 	<div id="menu" class="div-comum">
+
 		<h1 id="titulo-menu" class="titulos">Menu</h1>
-		<table id="tabela-menu">
-			<tr>
-				<th>
-					Prato
-				</th>
-				<th>
-					Descrição
-				</th>
-				<th>
-					Preço
-				</th>
-			</tr>
-			<tr>
-				<td>
-					Panquecas
-				</td>
-				<td>
-					Duas panquecas de massa fina, recheadas ao gosto do cliente
-				</td>
-				<td>
-					12,00
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Croissant
-				</td>
-				<td>
-					Salgado recheado assado com ervas finas
-				</td>
-				<td>
-					6,90
-				</td>
-			</tr>
-			<tr>
-			<tr>
-				<td>
-					Pão da casa
-				</td>
-				<td>
-					Fatia de pão da casa com azeite importado
-				</td>
-				<td>
-					4,50
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Café Expresso
-				</td>
-				<td>
-					Café expresso simples com a magia do Ratatouille Café
-				</td>
-				<td>
-					2,00
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Refrigerante Lata
-				</td>
-				<td>
-					Refrigerante em lata diversas marcas (consultar)
-				</td>
-				<td>
-					4,00
-				</td>
-			</tr>
-		</table>
+
+		<div class="tabela">
+			<table id="tabela-menu" class="table table-borderless">
+				<thead class="thead-dark">
+					<tr>
+						<th scope="col"></th>
+						<th scope="col">Prato</th>
+						<th scope="col">Descrição</th>
+						<th scope="col">Preço</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row"></th>
+						<td>Panquecas</td>
+						<td>Duas panquecas de massa fina, recheadas ao gosto do cliente</td>
+						<td>12,00</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td>Croissant</td>
+						<td>Salgado recheado assado com ervas finas</td>
+						<td>6,90</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td>Pão da casa</td>
+						<td>Fatia de pão da casa com azeite importado</td>
+						<td>4,50</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td>Café Expresso</td>
+						<td>Café expresso simples com a magia do Ratatouille Café</td>
+						<td>2,00</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td>Refrigerante Lata</td>
+						<td>Refrigerante em lata diversas marcas (consultar)</td>
+						<td>4,00</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -191,10 +168,10 @@
 			</form>
 
 			<div id="localizacao">
-			<p class="textos-formulario">
-				Se preferir, você pode enviar e-mail para blablabla@blabla.com ou nos fazer uma visita.
-			</p>
-				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ptsD5YQ2XMGp81OFdV8ywgLAsTh2mEyr" width="640" height="480"></iframe>
+				<p class="textos-formulario">
+					Se preferir, você pode enviar e-mail para blablabla@blabla.com ou nos fazer uma visita.
+				</p>
+				<iframe id="mapa-localizacao" src="https://www.google.com/maps/d/u/0/embed?mid=1ptsD5YQ2XMGp81OFdV8ywgLAsTh2mEyr" width="640" height="480"></iframe>
 				<p class="textos-formulario">
 					Website desenvolvido por: Gabriel Bittar Domingues ©
 				</p>
